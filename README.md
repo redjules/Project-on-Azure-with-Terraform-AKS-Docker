@@ -35,25 +35,25 @@ Familiarity with Kubernetes and YAML configurations.
 - Tagging: Implement tagging for resource organization and billing.
   
 # Terraform Execution
-Initialization: Run terraform init to prepare your Terraform working directory. 
+- Initialization: Run terraform init to prepare your Terraform working directory. 
 
-Authentication: Ensure Azure CLI is authenticated (use az login).
+- Authentication: Ensure Azure CLI is authenticated (use az login).
 
-Plan and Apply: Execute terraform plan and terraform apply to deploy resources.
+- Plan and Apply: Execute terraform plan and terraform apply to deploy resources.
 
 # Kubernetes Configuration
-Credentials: Retrieve AKS credentials using Azure CLI.
+- Credentials: Retrieve AKS credentials using Azure CLI.
 
-Deployments and Services: Use kubectl commands to create and manage Kubernetes deployments and services.
+- Deployments and Services: Use kubectl commands to create and manage Kubernetes deployments and services.
 
 # Running the Project
-Deployment Creation: Utilize kubectl create deployment to deploy a REST API.
+- Deployment Creation: Utilize kubectl create deployment to deploy a REST API.
 
-Service Exposure: Expose the deployment using kubectl expose.
+- Service Exposure: Expose the deployment using kubectl expose.
 
-Resource Monitoring: Monitor the deployment and services through the Azure portal.
+- Resource Monitoring: Monitor the deployment and services through the Azure portal.
 
 # Repository Structure
-/Terraform: Contains Terraform configuration files.
+- /Terraform: Contains Terraform configuration files.
 
-/AKS: Houses Kubernetes deployment and service configurations.
+- /AKS: Houses Kubernetes deployment and service configurations.
